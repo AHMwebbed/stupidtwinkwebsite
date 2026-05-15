@@ -60,18 +60,22 @@ body{
     position: absolute;
     height: 300px;
 }
+.button{
+    
+}
 .button1{
  height: 100px;
  width: 250px;
-  border: solid 5px rgb(255, 0, 0) ;
+  /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
   display: flex;
   top: 15%;
+  transition: all 0.2s ease-in-out;
 }
 .button2{
  height: 100px;
  width: 250px;
-  border: solid 5px rgb(255, 0, 0) ;
+  /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
     left:50vh;
@@ -80,7 +84,7 @@ body{
 .button3{
  height: 100px;
  width: 250px;
-  border: solid 5px rgb(255, 0, 0) ;
+  /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
  display: flex;
 right: 50vh;
@@ -89,7 +93,7 @@ top: 40vh;
 .button4{
  height: 100px;
  width: 250px;
-  border: solid 5px rgb(255, 0, 0) ;
+  /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
       bottom: 20vh;
@@ -98,25 +102,45 @@ top: 40vh;
 .button5{
  height: 100px;
  width: 250px;
-  border: solid 5px rgb(255, 0, 0) ;
+  /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
       bottom: 20vh;
       left:60vh;
+    background-image: url(images\buttontesst.webp);
+    }
+a{
+    font-size: xxx-large;
+    font-family: cursive ;
+        align-items:center;
+        text-align: center;
+    justify-content: center;
+    color: bisque;
+    background-color: #aea0ffc9;;
+    border: solid 15px #8f83d1a2;
+    border-radius: 48%;
+    border-style:double;
+    padding: 30px;
+    box-shadow: 15px 15px 5px #6c62a367;
+    transition: all 0.2s ease-in-out;
+}
+a:hover{
+      transform: scale(1.1);
+
 }
 @media (max-width: 1080px) {
 .button1{
  height: 100px;
- width: 100px;
-  border: solid 5px rgb(255, 0, 0) ;
+ width: 200px;
+
   position: absolute;
   display: flex;
   top: 20vh;
 }
 .button2{
  height: 100px;
- width: 100px;
-  border: solid 5px rgb(255, 0, 0) ;
+ width: 200px;
+
   position: absolute;
       display: flex;
     left:2vh;
@@ -124,8 +148,8 @@ top: 40vh;
 }
 .button3{
  height: 100px;
- width: 100px;
-  border: solid 5px rgb(255, 0, 0) ;
+ width: 200px;
+
   position: absolute;
  display: flex;
 right: 2vh;
@@ -133,8 +157,8 @@ top: 40vh;
 }
 .button4{
  height: 100px;
- width: 100px;
-  border: solid 5px rgb(255, 0, 0) ;
+ width: 200px;
+
   position: absolute;
       display: flex;
       bottom: 25vh;
@@ -142,8 +166,8 @@ top: 40vh;
 }
 .button5{
  height: 100px;
- width: 100px;
-  border: solid 5px rgb(255, 0, 0) ;
+ width: 200px;
+
   position: absolute;
       display: flex;
       bottom: 25vh;
