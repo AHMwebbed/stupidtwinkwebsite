@@ -1,4 +1,6 @@
 body{
+    
+    /* background-image: url(images\Illustration8.png); */
     background-color: #cfc7ff;
     margin: 0;
     padding: 0;
@@ -6,24 +8,54 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
+        font-family:"Comic Sans MS", "Comic Sans", cursive;
+ color: white;
+-webkit-text-stroke: 2px #000000;
+font-weight: 999;
+}
+.st{
+ 
+}
+.banner{
+
+    position: absolute;
+    border-bottom: solid 5px #6c62a367;
+    width: 100%;
+    /* height: 12vh; */
+    background-color: #aea0ff;;
+    top:0px;
+    text-align: center;
+    /* padding: 10px; */
+        color: #ffe4c4;
+    font-size: x-large;
+    
 }
 .bangs{
       position:absolute;
-      z-index: 1;
-      width:400px;
+      z-index: 2;
+      width:550px;
       height: auto;
-      top:-4vh
+      /* top:-4vh */
 
 }
 .hair{
     position: absolute;
+        height: 550px;
+        pointer-events: none; 
+}
+.facebl{
+    position: absolute;
+    height: 310px;
+    width: auto;
+     z-index: 1;
+     pointer-events: none; 
 }
 .face{
     position: relative;
     width: 300px;
     height: 300px;
-    /* background-color: white; */
-    background-image: url(images\faceblank.png);
+    background-color: white;
+    /* background-image: url(images\faceblank.png); */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -43,6 +75,7 @@ body{
     border-radius: 50%;
     margin:0 15px;
         border: solid 5px rgb(64,64,64) ;
+        z-index: 1;
 }
 .eyes .eye::before{
     content: '';
@@ -50,35 +83,23 @@ body{
     top: 50%;
     left:25px;
     transform: translate( -50%, -50%);
-    width:40px;
-    height:40px;
+    width:50px;
+    height:51px;
     border-radius: 50%;
-    background-color: rgb(64,64,64)
+    background-color: rgb(64,64,64);
+/* z-index: 2; */
+}
 
-}
-.facebl{
-    position: absolute;
-    height: 300px;
-}
-.banner{
-    position: absolute;
-    border-bottom: solid 5px #6c62a367;
-    width: 100%;
-    height: 12vh;
-    background-color: ;
-    top:0px;
-    text-align: center;
-    font-size: xx-large;
-
-}
 .button1{
+ 
  height: 100px;
  width: 250px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
   display: flex;
-  top: 15%;
-  transition: all 0.2s ease-in-out;
+  /* top: 15%; */
+
+ color:#dfa772;
 }
 .button2{
  height: 100px;
@@ -86,8 +107,10 @@ body{
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
-    left:50vh;
+    left:40vh;
     top: 40vh;
+
+ color:#df72b5;
 }
 .button3{
  height: 100px;
@@ -95,8 +118,9 @@ body{
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
  display: flex;
-right: 50vh;
+right: 40vh;
 top: 40vh;
+      color:#9be0b5;
 }
 .button4{
  height: 100px;
@@ -104,8 +128,9 @@ top: 40vh;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
-      bottom: 20vh;
+      bottom: 10vh;
       right: 60vh;
+      color:#9bc4e0;
 }
 .button5{
  height: 100px;
@@ -113,41 +138,71 @@ top: 40vh;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
-      bottom: 20vh;
-      left:60vh;
     background-image: url(images\buttontesst.webp);
     }
 .bb{
-    position: absolute;
-    bottom: 10%;
+    position:fixed;
+    bottom: 12.15%;
+        background-color: #a89af7;;
+            border: solid 7.5px #8f83d1a2;
+                border-radius: 100%;
+                font-size: 30px;
 }
-a{
-    font-size: 38px;
-    font-family: cursive ;
+.ad{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    height: 40px;
+
+
         align-items:center;
         text-align: center;
+        z-index: 1;
     justify-content: center;
     color: bisque;
-    background-color: #aea0ffc9;;
-    border: solid 15px #8f83d1a2;
+    background-color: #b5a8fd;;
+    border: none;
+    border-radius: 0%;
+    /* border-style:double; */
+    padding: 0px;
+    box-shadow: #694fff00;
+    transition: none;
+    text-decoration: none;
+}
+.ad:hover{
+    transform:none
+}
+a{
+    /* font-weight: bold; */
+    font-size: 40px;
+
+        align-items:center;
+        text-align: center;
+        z-index: 1;
+    justify-content: center;
+    color: bisque;
+    background-color: #b5a8fd;;
+    border: solid 7.5px #8f83d1a2;
     border-radius: 48%;
-    border-style:double;
-    padding: 30px;
-    box-shadow: 15px 15px 5px #6c62a367;
+    /* border-style:double; */
+    padding: 25px;
+    box-shadow: 15px 15px 9px #6a4fff46;
     transition: all 0.1s ease-in-out;
+    text-decoration: none;
+
 }
 a:hover{
       transform: scale(1.1);
 
 }
-@media (max-width: 1080px) {
+ @media (min-width: 1080px) {
 .button1{
  height: 100px;
  width: 200px;
 
   position: absolute;
   display: flex;
-  top: 20vh;
+top:20%;
 }
 .button2{
  height: 100px;
@@ -155,8 +210,7 @@ a:hover{
 
   position: absolute;
       display: flex;
-    left:2vh;
-    top: 40vh;
+left:5%
 }
 .button3{
  height: 100px;
@@ -164,8 +218,7 @@ a:hover{
 
   position: absolute;
  display: flex;
-right: 2vh;
-top: 40vh;
+ right:5%;
 }
 .button4{
  height: 100px;
@@ -173,8 +226,8 @@ top: 40vh;
 
   position: absolute;
       display: flex;
-      bottom: 25vh;
-      right: 6vh;
+bottom:25%;
+left:25%
 }
 .button5{
  height: 100px;
@@ -182,6 +235,113 @@ top: 40vh;
 
   position: absolute;
       display: flex;
-      bottom: 25vh;
-      left:6vh;
-}}
+
+}} 
+
+ @media (min-width: 1914px) {
+.button1{
+ height: 90px;
+ width: 190px;
+
+  position: absolute;
+  display: flex;
+  top: 15.5%;
+}
+.button2{
+ height: 90px;
+ width: 190px;
+
+  position: absolute;
+      display: flex;
+    /* left:2vh; */
+top:43%;
+left: 22%;
+}
+.button3{
+ height: 100px;
+ width: 200px;
+
+  position: absolute;
+ display: flex;
+/* right: 2vh; */
+top:43%;
+right: 21%;
+}
+.button4{
+ height: 90px;
+ width: 190px;
+
+  position: absolute;
+      display: flex;
+      bottom: 10%;
+        left:30%;
+}
+.button5{
+ height: 90px;
+ width: 190px;
+
+  position: absolute;
+      display: flex;
+      bottom: 10%;
+      right: 30%;
+}
+      .bangs{
+      position:absolute;
+      z-index: 2;
+      width:550px;
+      height: auto;
+      pointer-events: none;   
+}
+.hair{
+    position: absolute;
+        height: 550px;
+        pointer-events: none; 
+}
+.facebl{
+    position: absolute;
+    height: 310px;
+    width: auto;
+     z-index: 1;
+     pointer-events: none; 
+}
+.face{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    /* background-image: url(images\faceblank.png); */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    top: 15px;
+}   
+.eyes{
+    position: relative;
+    top: -20px;
+    display: flex ;
+}
+.eyes .eye{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin:0 15px;
+        border: solid 5px rgb(64,64,64) ;
+        z-index: 1;
+}
+.eyes .eye::before{
+    content: '';
+    position:absolute;
+    top: 50%;
+    left:25px;
+    transform: translate( -50%, -50%);
+    width:50px;
+    height:51px;
+    border-radius: 50%;
+    background-color: rgb(64,64,64);
+/* z-index: 2; */
+}
+}
