@@ -391,7 +391,7 @@ left: 22%;
 
 
 }
-@media (max-width: 1000px) {
+@media (max-width: 999px) {
 body{
     
     /* background-image: url(images\Illustration8.png); */
