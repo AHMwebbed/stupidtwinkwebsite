@@ -476,6 +476,7 @@ font-weight: 999;
 }
 .face{
     top:35%;
+    align-self: center;
     position: absolute;
     width: 10px;
     height: 10px;
