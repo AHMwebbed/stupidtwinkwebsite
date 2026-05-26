@@ -215,7 +215,7 @@ a:hover{
   position: absolute;
       display: flex;
 left:5%;
-top:37%;
+/* top:37%; */
 }
 .button3{
  height: 100px;
@@ -224,7 +224,7 @@ top:37%;
   position: absolute;
  display: flex;
  right:5%;
- top:37%;
+ /* top:37%; */
 }
 .button4{
  height: 100px;
@@ -264,7 +264,8 @@ right:20%
  width: 190px;
   position: absolute;
   display: flex;
-  left:30%
+  left:30%;
+  top:18%;
 }
 .button2{
  height: 90px;
@@ -305,7 +306,8 @@ right: 22%;;
       right: 30%;
 }
 .button6{
-    right:30%
+    right:30%;
+      top:18%;
 }
 .hair{
     position: absolute;
