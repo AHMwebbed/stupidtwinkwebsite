@@ -422,7 +422,7 @@ left: 22%;
 
 
 }
-@media (max-width: 1000px) {
+@media (max-width: 999px) {
 body{
     
     /* background-image: url(images\Illustration8.png); */
@@ -517,7 +517,7 @@ font-weight: 999;
 
 .button1{
  
- height: 45px;
+ height: 40px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
@@ -526,42 +526,42 @@ font-weight: 999;
 
  color:#f08623;
  RIGHT:5%;
- BOTTOM:26%;
+ BOTTOM:24.6%;
 }
 .button2{
-height: 45px;
+height: 40px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
-  bottom: 33%;
+  bottom: 32.5%;
    LEFT:5%;
  color:#ad2222;
  z-index: 0;
 }
 .button3{
- height: 45px;
+ height: 40px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
  display: flex;
-  top: 68%;
+  BOTTOM: 17%;
   LEFT:5%;
 }
 .button4{
- height: 45px;
+ height: 40px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
-  BOTTOM: 3%;
-  LEFT:5%;
+  BOTTOM: 2%;
+  LEFT:6%;
       color:#409ddb;
 }
 .button5{
- height: 45px;
+ height: 40px;
  width: 125px;
-BOTTOM:10.75%;
+BOTTOM:9.7%;
 RIGHT:5%;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
@@ -569,15 +569,15 @@ RIGHT:5%;
           color:#50af75;
     }
     .BUTTON6{
-         height: 45px;
+         height: 40px;
  width: 125px;
  right:5%;
  bottom: 40%
     }
 .bb{
     position:fixed;
-    top: 13%;
-    right:10%;
+    top: 12%;
+    right:5%;
         background-color: #a89af7;;
             border: solid 7.5px #8f83d1a2;
                 border-radius: 100%;
@@ -586,32 +586,5 @@ WIDTH:70PX;
 height:10px;
                     
 }
-.ad{
-    position: absolute;
-    right: 0;
-    bottom:0;
-    height: 30px;
 
-
-        align-items:center;
-        text-align: center;
-        z-index: 1;
-    justify-content: center;
-    color: bisque;
-    background-color: #b5a8fd;;
-    border: none;
-    border-radius: 0%;
-    /* border-style:double; */
-    padding: 0px;
-    box-shadow: #694fff00;
-    transition: none;
-    text-decoration: none;
-}
-.ad:hover{
-    transform:none
-}
-a:hover{
-      transform: scale(1.1);
-
-}
 }
