@@ -1,7 +1,6 @@
 @view-transition {
   navigation: auto;
 }
-
 body{
     
     /* background-image: url(images\Illustration8.png); */
@@ -30,7 +29,8 @@ font-weight: 999;
     /* padding: 10px; */
         color: #ffe4c4;
     font-size: x-large;
-    box-shadow: 0px 2px 12px #694fff3f;
+        box-shadow: 0px 2px 12px #694fff3f;
+    
 }
 .bangs{
       position:absolute;
@@ -38,6 +38,7 @@ font-weight: 999;
       width:550px;
       height: auto;
       /* top:-4vh */
+        pointer-events: none; 
 
 }
 .hair{
@@ -57,11 +58,11 @@ font-weight: 999;
     width: 300px;
     height: 300px;
     background-color: white;
-    /* background-image: url(images\faceblank.png); */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items:center;
+
 }
 .eyes{
     position: relative;
@@ -76,7 +77,7 @@ font-weight: 999;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     margin:0 15px;
-        border: solid 5px rgb(0, 0, 0) ;
+        border: solid 5px rgb(1, 0, 0) ;
         z-index: 1;
 }
 .eyes .eye::before{
@@ -88,7 +89,7 @@ font-weight: 999;
     width:50px;
     height:51px;
     border-radius: 50%;
-    background-color: rgb(1, 0, 0);
+    background-color: rgb(01, 0, 0);
 /* z-index: 2; */
 }
 
@@ -99,20 +100,15 @@ font-weight: 999;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
   display: flex;
-  /* top: 15%; */
-
- color:#f08623;
+ color:#dfa772;
 }
 .button2{
  height: 100px;
  width: 250px;
   /* border: solid 5px rgb(255, 0, 0) ; */
-  position: absolute;
-      display: flex;
-    left:40vh;
-    top: 40vh;
-
- color:#ad2222;
+position: absolute;
+display: flex;
+ color:#df72b5;
 }
 .button3{
  height: 100px;
@@ -120,9 +116,7 @@ font-weight: 999;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
  display: flex;
-right: 40vh;
-top: 40vh;
-  
+      color:#9be0b5;
 }
 .button4{
  height: 100px;
@@ -132,7 +126,7 @@ top: 40vh;
       display: flex;
       bottom: 10vh;
       right: 60vh;
-      color:#409ddb;
+      color:#9bc4e0;
 }
 .button5{
  height: 100px;
@@ -140,8 +134,14 @@ top: 40vh;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
-          color:#50af75;
+    background-image: url(images\buttontesst.webp);
     }
+.button6{
+height: 200px;
+ width: 250px;
+  position: absolute;
+  display: flex;
+}
 .bb{
     position:fixed;
     bottom: 12.15%;
@@ -149,6 +149,7 @@ top: 40vh;
             border: solid 7.5px #8f83d1a2;
                 border-radius: 100%;
                 font-size: 30px;
+                -webkit-text-stroke: 2px #000000;
 }
 .ad{
     position: absolute;
@@ -175,7 +176,6 @@ top: 40vh;
     transform:none
 }
 a{
-    
     /* font-weight: bold; */
     font-size: 40px;
 
@@ -183,13 +183,13 @@ a{
         text-align: center;
         z-index: 1;
     justify-content: center;
-    color: rgb(255, 207, 143);
+    color: bisque;
     background-color: #b5a8fd;;
     border: solid 7.5px #8f83d1a2;
     border-radius: 48%;
     /* border-style:double; */
     padding: 25px;
-  box-shadow: 15px 15px 9px #6a4fff46;
+    box-shadow: 15px 15px 9px #6a4fff46;
     transition: all 0.1s ease-in-out;
     text-decoration: none;
 
@@ -199,13 +199,14 @@ a:hover{
 
 }
  @media (min-width: 1000px) {
+
 .button1{
  height: 100px;
  width: 200px;
-
   position: absolute;
   display: flex;
-top:20%;
+  top:20%;
+  left:20%
 }
 .button2{
  height: 100px;
@@ -213,7 +214,8 @@ top:20%;
 
   position: absolute;
       display: flex;
-left:5%
+right:5%
+
 }
 .button3{
  height: 100px;
@@ -241,16 +243,27 @@ left:20%
       bottom:25%;
 right:20%
 
-}} 
+}
+.button6{
+     height: 100px;
+ width: 200px;
+
+  position: absolute;
+      display: flex;
+top:20%;
+right:20%
+
+}
+} 
 
  @media (min-width: 1900px) {
+    
 .button1{
  height: 90px;
  width: 190px;
-
   position: absolute;
   display: flex;
-  top: 15.75%;
+  left:30%
 }
 .button2{
  height: 90px;
@@ -270,7 +283,7 @@ left: 22%;
  display: flex;
 /* right: 2vh; */
 top:43%;
-right: 22%;
+right: 22%;;
 }
 .button4{
  height: 90px;
@@ -278,7 +291,7 @@ right: 22%;
 
   position: absolute;
       display: flex;
-      bottom: 11%;
+      bottom: 13%;
         left:30%;
 }
 .button5{
@@ -287,8 +300,16 @@ right: 22%;
 
   position: absolute;
       display: flex;
-      bottom: 11%;
+      bottom: 13%;
       right: 30%;
+}
+.button6{
+    right:30%
+}
+.hair{
+    position: absolute;
+        height: 550px;
+        pointer-events: none; 
 }
 .face{
 
@@ -301,16 +322,15 @@ right: 22%;
     justify-content: center;
     align-items:center;
     top:36%
+
 }   
 .eyes{
     position: relative;
     top: -20px;
     display: flex ;
 }
-
-
 }
-  @media (min-width: 2500px) {
+ @media (min-width: 2500px) {
     body{
         -webkit-text-stroke: 3px #000000;
     }
