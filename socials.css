@@ -11,7 +11,7 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
-        font-family:"Comic Sans MS", "Comic Sans", cursive;
+        font-family:"Comic Sans MS", "Comic Sans","chewy";
  color: white;
 -webkit-text-stroke: 2px #000000;
 font-weight: 999;
@@ -433,7 +433,7 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
-        font-family:"Comic Sans MS", "Comic Sans", cursive;
+
  color: white;
 -webkit-text-stroke: 2px #000000;
 font-weight: 999;
@@ -517,7 +517,7 @@ font-weight: 999;
 
 .button1{
  
- height: 50px;
+ height: 45px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
@@ -526,30 +526,30 @@ font-weight: 999;
 
  color:#f08623;
  RIGHT:5%;
- BOTTOM:29.5%;
+ BOTTOM:26%;
 }
 .button2{
- height: 50px;
+height: 45px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
       display: flex;
-  top: 47%;
+  bottom: 33%;
    LEFT:5%;
  color:#ad2222;
- z-index: 1;
+ z-index: 0;
 }
 .button3{
- height: 50px;
+ height: 45px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
  display: flex;
-  top: 65%;
+  top: 68%;
   LEFT:5%;
 }
 .button4{
- height: 50px;
+ height: 45px;
  width: 125px;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
@@ -559,9 +559,9 @@ font-weight: 999;
       color:#409ddb;
 }
 .button5{
- height: 50px;
+ height: 45px;
  width: 125px;
-BOTTOM:12%;
+BOTTOM:10.75%;
 RIGHT:5%;
   /* border: solid 5px rgb(255, 0, 0) ; */
   position: absolute;
@@ -569,9 +569,10 @@ RIGHT:5%;
           color:#50af75;
     }
     .BUTTON6{
-         height: 50px;
+         height: 45px;
  width: 125px;
- right:5%
+ right:5%;
+ bottom: 40%
     }
 .bb{
     position:fixed;

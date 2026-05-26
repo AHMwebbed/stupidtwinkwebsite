@@ -12,7 +12,7 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
-        font-family:"Comic Sans MS", "Comic Sans", cursive;
+        font-family:"Comic Sans MS", "Comic Sans","chewy";
  color: white;
 -webkit-text-stroke: 2px #000000;
 font-weight: 999;
@@ -402,7 +402,7 @@ body{
     align-items:center;
     justify-content: center;
     min-height: 100vh;
-        font-family:"Comic Sans MS", "Comic Sans", cursive;
+        font-family:"Comic Sans MS", "Comic Sans", ;
  color: white;
 -webkit-text-stroke: 2px #000000;
 font-weight: 999;
