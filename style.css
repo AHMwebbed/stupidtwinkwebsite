@@ -1,7 +1,9 @@
 @view-transition {
   navigation: auto;
 }
-
+html{
+     overflow: hidden;
+}
 body{
     
     /* background-image: url(images\Illustration8.png); */

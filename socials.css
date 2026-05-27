@@ -420,12 +420,14 @@ left: 22%;
     top: 38%;
 }   
 
-
+html{
+    overflow: hidden;
+}
 }
 @media (max-width: 999px) {
 
 body{
-zoom: 2.5;    
+zoom: 2.25;    
     /* background-image: url(images\Illustration8.png); */
     /* background-color: #2600ff; */
     margin: 0;
